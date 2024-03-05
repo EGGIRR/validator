@@ -1,0 +1,21 @@
+{
+    "name": "eggirr/validator",
+    "description": "Library for validation",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Vladislav",
+            "email": "vlad.grishanenko.gg@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "php": "^7.4 | ^8.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Validator\\": "src/"
+        }
+    }
+}
